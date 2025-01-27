@@ -60,7 +60,7 @@ Function Trim($originValue : Text) : Text
 	
 	return ($outputText)
 	
-Function incrementSharedCounter($value : Text)
+Function IncrementSharedCounter($value : Text)
 	var $incrementValue : Integer:=1
 	Use (Storage:C1525)
 		If (Storage:C1525.data=Null:C1517)
